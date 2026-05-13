@@ -1,4 +1,8 @@
-# [iMBank DiGital Banker] LangGraph 멀티 에이전트 프로젝트
+# [iM DiGital Banker] LangGraph 멀티 에이전트 프로젝트
+
+## 기간
+
+2026년 5월 13일 (수)
 
 ## 프로젝트 개요
 

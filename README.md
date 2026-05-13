@@ -11,8 +11,7 @@ LangGraph 기반 Multi-Agent 시스템을 통해 다음 과제를 수행하는 A
 
 > ### LangGraph
 >
-> LLM을 기반으로 상태를 유지하고(Stateful), 여러 단계에 걸쳐 작동하는(multi-step) 에이전트를 구축하기 위한 라이브러리  
-> <img width="108" height="432" alt="chain" src="https://github.com/user-attachments/assets/a8f39514-788c-4b1a-a2de-909589954dfe" />
+> LLM을 기반으로 상태를 유지하고(Stateful), 여러 단계에 걸쳐 작동하는(multi-step) 에이전트를 구축하기 위한 라이브러리
 
 ## 구현 포인트
 
@@ -32,17 +31,8 @@ LangGraph 기반 Multi-Agent 시스템을 통해 다음 과제를 수행하는 A
 ## 시스템 아키텍처
 
 사용자 질의는 LangGraph State를 기반으로  
-**3개의 Agent를 순차적으로 통과함.**
-
-User Query  
-↓  
-Extractor Agent  
-↓  
-Exercise Agent  
-↓  
-Answer Agent  
-↓  
-Result
+**3개의 Agent를 순차적으로 통과함.**  
+<img width="108" height="432" alt="chain" src="https://github.com/user-attachments/assets/a8f39514-788c-4b1a-a2de-909589954dfe" />
 
 > ### 각 Agent의 역할
 >
